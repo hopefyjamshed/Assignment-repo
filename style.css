@@ -7,6 +7,11 @@ body {
     font-size: 4vw;
 }
 
+#header-two {
+    font-size: 35px;
+    font-weight: 700;
+}
+
 #let {
     color: tomato;
 }
@@ -18,12 +23,19 @@ body {
     padding-right: 150px;
 }
 
-.first {
+.first-section {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100% 120%;
     height: 500px;
     text-align: center;
+}
+
+.third-section {
+    display: flex;
+    margin-left: 250px;
+    padding-bottom: 40px;
+    padding-top: 25px;
 }
 
 .link {
@@ -41,4 +53,37 @@ body {
 
 #paragraph {
     font-size: 15px;
+}
+
+#paragraph-two {
+    font-size: 15px;
+    color: gray;
+}
+
+.donate-today {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donation-amount {
+    border: hidden;
+    background-color: rgb(243, 240, 240);
+    margin-right: 10px;
+    border-radius: 5px;
+    color: gray;
+}
+
+.hundred {
+    padding: 22px 30px;
+}
+
+.thousant {
+    padding: 25px 23px;
+}
+
+#unique {
+    border-color: tomato;
+    background-color: rgb(236, 216, 212);
+    color: tomato;
+    border: 2px solid tomato;
 }
