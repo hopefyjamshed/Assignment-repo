@@ -1,0 +1,44 @@
+body {
+    margin: 0px 0px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#header-one {
+    font-size: 4vw;
+}
+
+#let {
+    color: tomato;
+}
+
+.need {
+    color: white;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.first {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    height: 500px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 13px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+}
+
+.link-div {
+    padding-top: 25px;
+}
+
+#paragraph {
+    font-size: 15px;
+}
