@@ -7,7 +7,7 @@ body {
     font-size: 4vw;
 }
 
-#header-two {
+.header-two {
     font-size: 35px;
     font-weight: 700;
 }
@@ -43,6 +43,14 @@ body {
     padding-left: 250px;
 }
 
+.fifth-section {
+    display: flex;
+    text-align: center;
+    padding-left: 200px;
+}
+
+
+
 .link {
     text-decoration: none;
     background-color: tomato;
@@ -60,7 +68,7 @@ body {
     font-size: 15px;
 }
 
-#paragraph-two {
+.paragraph-two {
     font-size: 15px;
     color: gray;
 }
@@ -113,4 +121,90 @@ body {
     border-radius: 5px;
     color: white;
     margin-top: 50px;
+}
+
+.sixth-section {
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 70px;
+
+}
+
+.box-div {
+    border: hidden;
+    box-shadow: 2px 2px 2px rgb(248, 245, 245);
+    margin-left: 20px;
+    background-color: aqua;
+    width: 300px;
+    height: 280px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.paragraph-three {
+    font-size: small;
+    color: gray;
+}
+
+.box-div img {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.resize {
+    font-size: 20px;
+}
+
+#color-div-one {
+    background-color: rgb(221, 221, 241);
+
+}
+
+#color-div-two {
+    background-color: rgb(243, 230, 230);
+}
+
+#color-div-three {
+    background-color: rgb(238, 238, 220);
+}
+
+.seventh-section {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#subscribe {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 8px 20px;
+    color: white;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#email {
+    border: 1px solid gray;
+    height: 31px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.section-eight {
+    padding-left: 150px;
+    margin-left: 0px;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-header {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: tomato;
 }
